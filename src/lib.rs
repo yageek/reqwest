@@ -301,6 +301,8 @@ if_hyper! {
     pub mod redirect;
     #[cfg(feature = "__tls")]
     mod tls;
+    #[cfg(feature = "__tls")]
+    mod pinning;
     mod util;
 }
 
